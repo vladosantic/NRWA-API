@@ -9,7 +9,7 @@ class CountryController extends Controller
 {
     public function index()
     {
-        $countries = Country::orderBy('Code','desc')->paginate(10);
+        $countries = Country::orderBy('Code','asc')->paginate(10);
         return view('country.index', compact('countries'));
     }
 
