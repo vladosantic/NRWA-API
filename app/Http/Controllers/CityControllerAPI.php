@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\City;
+use Illuminate\Support\Facades\Auth;
 
 class CityControllerAPI extends Controller
 {
     public function index()
     {
         $city = City::orderBy('ID','asc')->paginate(10);
+       
         return [
             "status" => 1,
             "data" => $city

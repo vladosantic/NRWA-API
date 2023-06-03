@@ -11,6 +11,13 @@ Place yourself in the root folder of the app and execute `composer install` and 
 Execute `php artisan serve`
 
 # Testing in Postman
+
+## Test user
+
+email: user@sum.ba
+password: 1234
+Authentication type : Basic Auth
+
 ## Create city/country
 url: http://127.0.0.1:8000/api/city<br>
 method: POST<br>
