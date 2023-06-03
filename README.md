@@ -14,9 +14,9 @@ Execute `php artisan serve`
 
 ## Test user
 
-email: user@sum.ba
-password: 1234
-Authentication type : Basic Auth
+email: user@sum.ba<br>
+password: 1234<br>
+Authentication type : Basic Auth<br>
 
 ## Create city/country
 url: http://127.0.0.1:8000/api/city<br>
